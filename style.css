@@ -1,0 +1,170 @@
+
+
+/* Developed By Ahnaf Tahmid */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-container{
+    display:flex;
+    justify-content:space-around;
+    background-color: #424141;
+    color: rgb(238, 226, 167);
+    padding: 12px;
+}
+.menus{
+    display: flex;
+    list-style: none;
+}
+.item{
+    margin-right:17px;
+    padding: 5px;
+    font-size: 18px;
+}
+.logo{
+    width:130px;
+    padding: 5px;
+ 
+}
+.banner-container{
+display: flex;
+justify-content:space-around;
+padding: 10px;
+
+align-items: center;
+height:100vh;
+background-image: url("./images/background.png"),linear-gradient(45deg, rgb(5, 5, 5), #c75757);
+color: rgb(219, 179, 143);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+}
+.photo{
+    width: 300px;
+}
+
+.title{
+font-size:54px;
+font-weight: bold;
+
+}
+
+.descriptions{
+    font-size: 18px;
+    margin-top:15px
+}
+.btn{
+    margin-top: 20px;
+    padding: 13px 20px;
+    outline: none;
+    background-color: rgb(71, 246, 68);
+    border-radius: 3px;
+    border: none;
+    color: rgb(98, 0, 197);
+}
+
+
+.about-us-container{
+    display: flex;
+    padding: 25px;
+    justify-content: space-around;
+    margin-top:20px;
+    flex-direction: row-reverse;
+}
+
+.about-us{
+    text-align: center;
+    padding-top:20px;
+}
+
+.box{
+    width: 200px;
+    height: 280px;
+   
+    padding: 15px;
+    text-align: center;
+    box-shadow: 4px  2px 105px rgb(242, 241, 243);
+    border-radius: 10px;
+}
+.box-title{
+    padding:10px;
+}
+.box-btn{
+    background-color: salmon;
+}
+.icon{
+    width:70px;
+    color: #e19595dc;
+}
+.service-container{
+   
+    background-image: url('./images/background.png'),linear-gradient(45deg,rgb(5, 5, 5), #2e2e2e);
+    color: sandybrown;
+    padding: 50px;
+    flex-wrap: wrap;
+
+}
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+footer{
+    width: 100%;
+    height: 70vh;
+    background-image: url("./asset/image/footer-bg.png"),linear-gradient(rgb(152, 161, 136),rgba(204, 139, 64, 0.9));
+    background-repeat:no-repeat;
+    background-blend-mode: overlay;
+    color: rgb(34, 18, 214);
+    line-height: 1.8em;
+   
+}
+.footer-container{
+    display: flex;
+    width: 75%;
+    height: 60vh;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+.logo-box{
+    width: 25%;
+}
+.logo-box img{
+    width:170px;
+}
+
+.copy{
+    text-align: center;
+    padding: 15px;
+}
+.fa-solid{
+    margin-right: 7px;
+}
+.footer-title{
+    margin-bottom: 30px;
+}
+.icons{
+   
+    margin-top:20px;
+}
+.fa-brands{
+    margin: 10px;
+    font-size:20px;
+}
+
+
+#box-11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 40px;
+}
